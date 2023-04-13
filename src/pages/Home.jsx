@@ -25,8 +25,8 @@ const Home = () => {
   console.log(appointments)
   console.log(doctors)
   return (
-    <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">CLARUS HOSPITAL</h1>
+    <main className="text-center mt-2 vh-100">
+      <h1 className="display-5 text-danger">USA VIRGINIA HOSPITAL</h1>
       <Doctors
         doctors={doctors}
         appointments={appointments}

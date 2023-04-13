@@ -26,7 +26,7 @@ const AppointmentList = ({ appointments, setAppointments }) => {
       </h3>
       <div type="button" className="d-flex flex-column align-items-center">
         {!appointments.length && (
-          <img src="./img/appointment.jpg" width="80%" alt="" />
+          <img src="./img/appointment.jpg" width="60%" alt="" />
         )}
 
         {appointments.map((item) => {
@@ -48,7 +48,7 @@ const AppointmentList = ({ appointments, setAppointments }) => {
                 </Col>
                 <Col xs={2} sm={4} md={1} className="text-end">
                   <FaTimesCircle
-                    className="text-danger fs-1"
+                    className="text-danger fs-4"
                     type="button"
                     onClick={() => handleDelete(id)}
                   />
